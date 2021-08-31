@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="a9602efb-f861-443d-8794-6e9fbcbbdb51" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://api.loadninja.com Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="a9602efb-f861-443d-8794-6e9fbcbbdb51fileName">https%3A%2F%2Fapi.loadninja.com-Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="e5d3f9db-b28b-4264-99b8-afc687704eb6">
+    <con:settings/>
+    <con:config service="https://api.loadninja.com" resourcePath="/v1/project/" methodName="Project" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="71ee63ed-0e05-41d0-b3b0-84e1f73d005e" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="authorization" value="a0a08180-b939-11eb-af11-592cb8bc5e77"/>
+  &lt;con:entry key="Content-Type" value="application/json"/>
+&lt;/xml-fragment></con:setting>
+        </con:settings>
+        <con:endpoint>https://api.loadninja.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://api.loadninja.com/v1/project/</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="76471bb6-c654-4eaa-ba66-6c329875fdf8" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

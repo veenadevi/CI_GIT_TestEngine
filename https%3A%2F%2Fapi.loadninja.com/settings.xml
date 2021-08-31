@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="1807a4e0-4e71-4da7-9b8d-61bb74985577" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://api.loadninja.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="1807a4e0-4e71-4da7-9b8d-61bb74985577fileName">https%3A%2F%2Fapi.loadninja.com</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://api.loadninja.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

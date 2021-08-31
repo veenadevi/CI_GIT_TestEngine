@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Project" path="/v1/project/" id="37a40a1a-8056-4958-9efb-2d4e0b9664df" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="37a40a1a-8056-4958-9efb-2d4e0b9664dffileName">Project</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Project" id="09207bda-9a48-4ae4-8f28-a0d6c653affa" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:proj="https://api.loadninja.com/v1/project/">proj:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="71ee63ed-0e05-41d0-b3b0-84e1f73d005e" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="authorization" value="a0a08180-b939-11eb-af11-592cb8bc5e77"/>
+  &lt;con:entry key="Content-Type" value="application/json"/>
+&lt;/xml-fragment></con:setting>
+      </con:settings>
+      <con:endpoint>https://api.loadninja.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://api.loadninja.com/v1/project/</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

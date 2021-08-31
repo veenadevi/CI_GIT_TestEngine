@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="a350c45d-689d-4f01-85dd-5a6dad6375bc" name="https://api.loadninja.com Test Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="a350c45d-689d-4f01-85dd-5a6dad6375bcfileName">https%3A%2F%2Fapi.loadninja.com-Test-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
